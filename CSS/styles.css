@@ -1,0 +1,92 @@
+header{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+     top: 0;
+}
+
+
+h1{
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+h2{
+    margin: 0;
+    font-size: 1.2;
+    color: rgb(255, 255, 255);
+
+}
+
+main{
+    background-color: rgb(234,154,39);
+    padding: 20px;
+    padding-top: 200px;
+    border-radius: 15px;
+}
+
+h3{
+    margin-top: 0;
+    background-color: azure;
+    padding:  .5rem;
+    border-bottom: 2px dashed darkred;
+    border-radius: 10px;
+    /* position: sticky; */
+    top: 120px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer{
+    padding: 0 15px;
+    text-align: center;
+    font-size: small;
+}
+
+a{
+    padding: 15px;
+}
+/* #car{
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    left: 20%;
+    right: 20%;
+    background-color: brown;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1000;
+} */
+
+.beer{
+    margin-top: 1rem;
+}
+.beer h4{
+color: rgb(255, 255, 255);
+font-size: 1.3rem;
+margin: 5px 0;
+}
+.beer section{
+    display: flex;
+}
+.beer .description{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    flex-grow:1;
+}
+.beer .price{
+    width: 100px;
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: right;
+    vertical-align: middle;
+    margin: 0;
+}
